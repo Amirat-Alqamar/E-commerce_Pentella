@@ -17,7 +17,7 @@ const Footer = () => {
     <section className='bg-black text-white m-auto '>
       <div className='container grid grid-cols-1 gap-5 lg:gap-2 md:grid-cols-2 lg:grid-cols-3 place-items-center py-5 '>
         <div>
-          <Image src="/images/logo2.png" alt='logo' width='200' className='rounded-full' />
+          <Image src="/images/logo2.png" alt='logo' width={200} height={200} className='rounded-full' />
         </div>
         <div>
           <h2 className='text-red-200 font-bold border-b-2 border-red-200 mb-5'>

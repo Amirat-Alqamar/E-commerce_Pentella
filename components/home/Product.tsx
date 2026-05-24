@@ -19,6 +19,7 @@ export default function Product() {
                         src="/images/product1.png"
                         alt='product1'
                         width={100}
+                        height={100}
                         className='rounded-full'
                     />
                 </div>
@@ -27,18 +28,21 @@ export default function Product() {
                     src="/images/product2.png"
                     alt='product2'
                     width={100}
+                    height={100}
                     className='rounded-full'
                 />
                 <Image
                     src="/images/product3.png"
                     alt='product3'
                     width={100}
+                    height={100}
                     className='rounded-full'
                 />
                 <Image
                     src="/images/product4.png"
                     alt='product4'
                     width={100}
+                    height={100}
                     className='rounded-full'
                 />
             </div>

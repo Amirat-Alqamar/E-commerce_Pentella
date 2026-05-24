@@ -1,7 +1,6 @@
 "use client";
 
 import { Search, ShoppingCart, User } from "lucide-react";
-import logo from "../../public/images/logo2.png";
 import Image from "next/image";
 import Link from "next/link";
 import { useCartStore } from "../../store/cartStore";
@@ -67,7 +66,7 @@ export default function TopBar() {
             <main className="flex items-center justify-between gap-4 p-4 bg-black">
                 {/* Logo */}
                 <Link href={"/"}>
-                    <Image src={logo} alt="logo" width={120} height={100} />
+                    <Image src="/images/logo2.png" alt="logo" width={120} height={100} />
                 </Link>
 
                 {/* Search */}

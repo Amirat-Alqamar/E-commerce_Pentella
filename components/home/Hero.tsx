@@ -2,23 +2,21 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import hero1 from "../../public/images/hero1.jpg";
-import hero2 from "../../public/images/hero2.jpg";
-import hero3 from "../../public/images/hero3.jpg";
+
 
 const slides = [
     {
-        image: hero1,
+        image: "/images/hero1.jpg",
         title: "Upgrade Your Style",
         subtitle: "Discover the latest trends with unbeatable prices",
     },
     {
-        image: hero2,
+        image: "/images/hero2.jpg",
         title: "Smart Choices, Better Life",
         subtitle: "Top quality products selected just for you",
     },
     {
-        image: hero3,
+        image: "/images/hero3.jpg",
         title: "Everything You Need in One Place",
         subtitle: "Shop now and enjoy fast delivery",
     },
